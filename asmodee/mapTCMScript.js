@@ -1,4 +1,4 @@
-var zoneWelcomeToTCMName = "popUpWelcome";
+var zoneWelcomeToTCMName = "popUpWelcomeToTCM";
 var zoneMeetTheDevTeamName = "popUpMeetTheDevTeam";
 var zoneRespectPeopleName = "popUpRespectPeople";
 console.log("SCRIPT RUNNUNG");
@@ -7,7 +7,7 @@ var currentPopup = undefined;
 var isCoWebSiteOpened =  false;
 
 WA.onEnterZone(zoneWelcomeToTCMName, () => {
-   currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to the Inspirience map !",[
+   currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to The Coding Machine !",[
         {
             label: "Who are we ? ",
             className: "popUpElement",
