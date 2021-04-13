@@ -230,13 +230,13 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":74.5,
+                 "height":100,
                  "id":2,
                  "name":"popUpWelcome",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":95,
+                 "width":200,
                  "x":916.5,
                  "y":689.5
                 }],
