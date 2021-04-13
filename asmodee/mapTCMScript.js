@@ -2,12 +2,12 @@ var zoneWelcomeToTCMName = "popUpWelcomeToTCM";
 var zoneMeetTheDevTeamName = "popUpMeetTheDevTeam";
 var zoneRespectPeopleName = "popUpRespectPeople";
 console.log("SCRIPT RUNNUNG");
-var urlWelcomeToTCM = "https://www.thecodingmachine.com/en/welcome-to-the-coding-machine/";
+var urlWelcomeToTCM = "https://inspirience.fr/";
 var currentPopup = undefined;
 var isCoWebSiteOpened =  false;
 
 WA.onEnterZone(zoneWelcomeToTCMName, () => {
-   currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to The Coding Machine !",[
+   currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to Inspirience experience !",[
         {
             label: "Who are we ? ",
             className: "popUpElement",
