@@ -267,6 +267,12 @@
  "nextlayerid":43,
  "nextobjectid":3,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"mapTCMScript.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.4.2",
  "tileheight":32,
